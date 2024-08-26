@@ -9,7 +9,7 @@ league = League(league_id=325751, year=2024, swid=swid, espn_s2=espn_s2)
 
 teams:list = league.teams
 
-for i in range(100000):
+for i in range(1000000):
     shuffle(teams)
 
 
